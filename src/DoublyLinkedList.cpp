@@ -1,4 +1,4 @@
-﻿#include "../include/DoublyLinkedList.hpp"
+﻿#include "DoublyLinkedList.hpp"
 
 //konstruktor
 DoublyLinkedList::DoublyLinkedList() {
@@ -201,12 +201,4 @@ DoublyLinkedList::~DoublyLinkedList() {
     }
     head = tail = nullptr;
     size = 0;
-}
-
-
-int generete_number(int min, int max) {
-    //rand() % N -> liczba losowa od 0 do N-1
-    //rand() % (max - min + 1) -> liczba od liczba losowa od 0 do max
-    //min + rand() % (max - min + 1) -> liczba losowa od min do max
-    return min + rand() % (max - min + 1);
 }

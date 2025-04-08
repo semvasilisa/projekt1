@@ -30,5 +30,4 @@ public:
     ~SinglyLinkedList();
 };
 
-#include "../src/SinglyLinkedList.cpp"
 #endif

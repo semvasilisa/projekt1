@@ -1,4 +1,4 @@
-﻿#include "../include/SinglyLinkedList.hpp"
+﻿#include "SinglyLinkedList.hpp"
 
 SinglyLinkedList::SinglyLinkedList() {
     head = nullptr;

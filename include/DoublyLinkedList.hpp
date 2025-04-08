@@ -32,5 +32,4 @@ public:
     ~DoublyLinkedList(); 
 };
 
-#include "../src/DoublyLinkedList.cpp"
 #endif
