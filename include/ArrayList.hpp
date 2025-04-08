@@ -1,5 +1,5 @@
-#ifndef ARRAYLIST_H
-#define ARRAYLIST_H
+#ifndef ARRAYLIST_HPP
+#define ARRAYLIST_HPP
 
 #include <iostream>
 
@@ -26,5 +26,5 @@ public:
     void print() const;
 };
 
-#include "ArrayList.cpp"
+#include "../src/ArrayList.cpp"
 #endif
