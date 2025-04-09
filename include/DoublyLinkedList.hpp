@@ -27,6 +27,7 @@ public:
     void pop_back();
     void remove_at(int index);
     void print();
+    int getSize() const { return size; }
 
     //destructor 
     ~DoublyLinkedList(); 
