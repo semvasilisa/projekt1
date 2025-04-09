@@ -1,0 +1,21 @@
+  //zwraca 0 jeśli elementa nie ma w liście i 1 jeśli element jest w liście
+    int search(int number) {
+        Node* current = head;
+        int result = 0;
+        if (head == nullptr) {
+            cout << "The list is empty" << endl;
+            return result;
+        }
+
+        //idziemy do końca listy
+        while (current != nullptr) {
+            if (current->data == number)
+            {
+                result = 1;
+                break;
+            }
+            current = current->next;
+        }
+
+        return result;
+    }
